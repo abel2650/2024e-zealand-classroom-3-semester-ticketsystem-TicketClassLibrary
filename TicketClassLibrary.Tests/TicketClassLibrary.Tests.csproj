@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFrameworks>net8.0</TargetFrameworks>
+    <TargetFrameworks>net9.0</TargetFrameworks>
     
     <IsPackable>false</IsPackable>
     
@@ -16,6 +16,8 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\OresundTicketLibrary\OresundTicketLibrary.csproj" />
+    <ProjectReference Include="..\StoreBaeltTicketLibrary\StoreBaeltTicketLibrary.csproj" />
     <ProjectReference Include="..\TicketClassLibrary\TicketClassLibrary.csproj" />
   </ItemGroup>
   
